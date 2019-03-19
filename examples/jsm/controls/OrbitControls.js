@@ -250,6 +250,14 @@ var OrbitControls = function ( object, domElement ) {
 	};
 
 	//
+	// Expose to provide a means of setting itinital position
+	//
+	this.dollyIn = dollyIn;
+	this.dollyOut = dollyOut;
+	this.rotateLeft = rotateLeft;
+	this.rotateUp = rotateUp;
+
+	//
 	// internals
 	//
 
