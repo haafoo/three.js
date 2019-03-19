@@ -23,6 +23,7 @@ var files = [
 	{ path: 'loaders/GLTFLoader.js', ignoreList: [ 'NoSide', 'Matrix2', 'DDSLoader' ] },
 	{ path: 'loaders/OBJLoader.js', ignoreList: [] },
 	{ path: 'loaders/MTLLoader.js', ignoreList: [] },
+	{ path: 'loaders/STLLoader.js', ignoreList: [] },
 
 	{ path: 'utils/BufferGeometryUtils.js', ignoreList: [] },
 	{ path: 'utils/GeometryUtils.js', ignoreList: [] },
